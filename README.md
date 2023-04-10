@@ -13,7 +13,7 @@ You can assign event handlers inline: `<Button x:Name="plusButton" Content="+" C
 you can assign event handlers inside the constructor: `plusButton.Click += OperationButton_Click;`
 
 ### 3. XAML Static Resources
-The order of precendence is inline styling > explicit styling > implicit styling
+The order of precendence is `inline styling > explicit styling > implicit styling`
 
 `Inline styling` takes the highest precedence and applies only to the specific instance of the control that it's defined on.  
 `Explicit styling` applies to controls that have an explicitly specified style, and completely replaces any implicit styles that would otherwise apply.  
