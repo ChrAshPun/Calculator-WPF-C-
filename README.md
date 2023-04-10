@@ -16,10 +16,8 @@ you can assign event handlers inside the constructor: `plusButton.Click += Opera
 ### 3. XAML Static Resources
 The order of precendence is inline styling > explicit styling > implicit styling
 
-`Inline styling` takes the highest precedence and applies only to the specific instance of the control that it's 
-defined on.
-`Explicit styling` applies to controls that have an explicitly specified style, and completely replaces any 
-implicit styles that would otherwise apply.
+`Inline styling` takes the highest precedence and applies only to the specific instance of the control that it's defined on.
+`Explicit styling` applies to controls that have an explicitly specified style, and completely replaces any implicit styles that would otherwise apply.
 `Implicit styling` applies to all controls of a certain type that don't have an explicit style set, and can be 
 overridden by explicit styles.
 
@@ -29,7 +27,7 @@ Resources defined in `Application.Resources` can be access by any element in the
 The variable used as the `out` parameter must be declared before it is passed as an argument to the method.
 It must be assigned a value before it comes out of the function.
 
-`String a, b;
-Split(“Stevie Ray Vaughn”, out a, out b);
-Console.WriteLine (a); // Stevie Ray
-Console.WriteLine (b); // Vaughn`
+`String a, b;`
+`Split(“Stevie Ray Vaughn”, out a, out b);`
+`Console.WriteLine (a); // Stevie Ray`
+`Console.WriteLine (b); // Vaughn`
