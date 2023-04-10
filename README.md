@@ -25,8 +25,9 @@ Resources defined in `Application.Resources` can be access by any element in the
 ### 4. The out modifier
 The variable used as the `out` parameter must be declared before it is passed as an argument to the method.
 It must be assigned a value before it comes out of the function.
-
-`String a, b;  
-Split(“Stevie Ray Vaughn”, out a, out b);  
-Console.WriteLine (a); // Stevie Ray. 
-Console.WriteLine (b); // Vaughn`
+```
+String a, b;
+Split(“Stevie Ray Vaughn”, out a, out b);
+Console.WriteLine (a); // Stevie Ray
+Console.WriteLine (b); // Vaughn
+```
