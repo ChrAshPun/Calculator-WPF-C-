@@ -9,7 +9,7 @@ called MainWindow.g.i.cs located in the obj folder. Since MainWindow is a partia
 class definitions are spread across multiple files.
 
 ### 2. Two methods for creating Event Handlers
-You can create event handlers inline: <Button x:Name="plusButton" Content="+" Click="OperationButton_Click"/> or
+You can create event handlers inline: `<Button x:Name="plusButton" Content="+" Click="OperationButton_Click"/>` or
 you can create event handlers inside the constructor: plusButton.Click += OperationButton_Click;
 
 ### 3. XAML Static Resources
