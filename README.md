@@ -20,7 +20,7 @@ The order of precendence is inline styling > explicit styling > implicit styling
 `Explicit styling` applies to controls that have an explicitly specified style, and completely replaces any implicit styles that would otherwise apply.  
 `Implicit styling` applies to all controls of a certain type that don't have an explicit style set, and can be overridden by explicit styles.
 
-Resources defined in `Application.Resources` can be access by any element in the entire application.
+Resources defined in `Application.Resources` can be accessed by any element in the entire application.
 
 ### 4. The out modifier
 The variable used as the `out` parameter must be declared before it is passed as an argument to the method.
