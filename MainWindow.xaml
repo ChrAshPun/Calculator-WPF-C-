@@ -118,6 +118,7 @@
                 Grid.Row="1"/>
         <Button x:Name="divisionButton" 
                 Style="{StaticResource topRightButton}"
+                Click="OperationButton_Click"
                 Content="/"
                 Grid.Column="3"
                 Grid.Row="1"/>
